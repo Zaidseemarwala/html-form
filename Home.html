@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home Tab with Navigation Bar</title>
+</head>
+<link rel="stylesheet" href="HomeStyle.css">
+
+<body>
+ 
+  
+  <div class="banner">
+    <br>
+    <img src="Img1/logo.png" class="logo" >
+  
+    
+    
+    <ul class="navbar"> 
+        <li class="navitem"><a href="#home">Home</a></li>
+      
+        <li class="navitem"><a href="about.html">About</a></li>
+        <li class="navitem"><a href="#contact">Add to cart</a></li>
+         <li class="navitem"><a href="Login.html">Log out</a></li>
+    
+    </ul>
+    <br>
+    
+    <div id="gallary">
+    <div class="image-container">
+      <h3 class="h1">LG</h3>
+        <img class="image" src="Lg1.jpg" alt="Image 1" id="img1"onclick="change(this)">
+        <img class="image" src="Lg2.jpg" alt="Image 2" id="img2"onclick="change(this)">
+        <img class="image" src="Lg3.jpg" alt="Image 3" id="img3"onclick="change(this)">
+    </div>
+    
+    <div class="image2-container">
+      <h3 class="h2"><b>PANASONIC</b></h3>
+        <img class="image2" src="Pn1.jpg" alt="Image 1" id="img4"onclick="change(this)">
+        <img class="image2" src="Pn2.jpg" alt="Image 2" id="img5"onclick="change(this)">
+        <img class="image2" src="Pn3.jpg" alt="Image 3" id="img6" onclick="change(this)">
+    <div class="image3-container">
+      <h3 class="h3"><b>SONY</b></h3>
+        <img class="image2" src="Sn1.jpg" alt="Image 1" id="img7" onclick="change(this)">
+        <img class="image2" src="Sn2.jpg" alt="Image 2" id="img8" onclick="change(this)">
+          <img class="image2" src="Sn3.jpg" alt="Image 3" id="img9" onclick="change(this)" >
+    </div>
+  <div class="image4-container">
+      <h3 class="h4"><b>SAMSUNG</b></h3>
+        <img class="image2" src="Sm1.jpg" alt="Image 1" id="img10" onclick="change(this)">
+        <img class="image2" src="Sm2.jpg" alt="Image 2" id="img11" onclick="change(this)">
+        <img class="image2" src="Sm3.jpg" alt="Image 3" id="img12"onclick="change(this)">
+    </div>
+    </div>
+</div>
+  <script>
+  
+  function change(element){
+    element.classList.toggle("size");
+  }
+  </script>
+  
+
+</body>
+
+</html>

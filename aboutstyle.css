@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.banner{
+  background: url('bg.jpg') no-repeat ;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  backdrop-filter: blur(10px);
+
+
+  
+}
+
+.logo{
+  width:410px;
+  height: 80px;
+}
+  ul.navbar {
+            list-style-type: none;
+            background-color: #fcbd58;
+            overflow: hidden;
+        }
+
+        li.navitem {
+            float: left;
+        }
+
+        li.navitem a {
+            display: block;
+            color: white;
+            padding: 20px 20px;
+          
+        }
+
+
+.about{
+  font-size: 1.5rem;
+  text-align: center;
+  color:#fcbd58;
+}
+.info{
+  color:#fff;
+}
+.news{
+  color:#fcbd58;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.revi{
+  color:#fcbd58;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.fea{
+  color:#fcbd58;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.contact{
+  color:#fcbd58;
+  font-size: 1.5rem;
+  text-align: center;
+}
