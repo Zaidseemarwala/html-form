@@ -28,12 +28,17 @@ ul.navbar {
 
         li.navitem {
             float: left;
+           display: flex;
+  justify-content: space-evenly;
         }
 
         li.navitem a {
             display: block;
             color: black;
             padding: 20px 20px;
+           display: flex;
+  justify-content: space-evenly;
+        
           
         }
 .h1{
