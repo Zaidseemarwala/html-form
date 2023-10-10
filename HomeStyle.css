@@ -22,6 +22,8 @@ ul.navbar {
             list-style-type: none;
             background-color: #fcbd58;
             overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
         }
 
         li.navitem {
