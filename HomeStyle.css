@@ -60,8 +60,7 @@ ul.navbar {
 .image-container {
             justify-content: center;
             align-items: center;
-  display: flex;
-  justify-content: space-evenly;
+
         }
 
         .image {
@@ -74,8 +73,7 @@ ul.navbar {
 .image2-container {
             justify-content: center;
             align-items: center;
-  display: flex;
-  justify-content: space-evenly;
+ 
         }
 
         .image2 {
@@ -87,8 +85,7 @@ ul.navbar {
 .image3-container {
             justify-content: center;
             align-items: center;
-  display: flex;
-  justify-content: space-evenly;
+ 
         }
 
         .image2 {
@@ -101,8 +98,7 @@ ul.navbar {
 .image4-container {
             justify-content: center;
             align-items: center;
-  display: flex;
-  justify-content: space-evenly;
+ 
         }
 
         .image2 {
